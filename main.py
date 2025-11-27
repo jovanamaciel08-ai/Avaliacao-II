@@ -11,7 +11,7 @@ def main():
     cliente = Cliente(nome, cpf, email)
     print(f"\nCliente cadastrado:\n{cliente.exibir_dados()}")
 
-    conta_tipo = ""
+    conta_tipo = []
     while conta_tipo not in ["corrente", "poupanca"]:
         print("\nESCOLHA O TIPO DE CONTA PARA ABRIR")
         print("[1] - Corrente")
